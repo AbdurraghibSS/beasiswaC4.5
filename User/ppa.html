@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V4</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->	
+
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="text-center">
+			<h3>Beasiswa PPA</h3>
+		</div>
+		<div class="container-login100" style="background-image: url('images/bg-02.jpg');">
+			<div class="wrap-login100 p-l-50 p-r-55 p-t-65 p-b-54">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-49">
+						Data Pribadi
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Nama harus diisi">
+						<span class="label-input100">Nama</span>
+						<input class="input100" type="text" name="nama" placeholder="Masukkan Nama Anda">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Tanggal harus diisi">
+						<span class="label-input100">Tanggal Lahir</span>
+						<input class="input100" type="date" name="tanggal" placeholder="Type your password">
+						<span class="focus-input100" data-symbol="&#xf32f;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Jenis kelamin tidak boleh kosong">
+						<span class="label-input100">Jenis Kelamin : </span>
+						<input class="" type="radio" name="jenis_kelamin" required> Laki
+						<input class="" type="radio" name="jenis_kelamin" required> Wanita
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Agama harus diisi">
+						<span class="label-input100">Agama</span>
+						<input class="input100" type="text" name="agama" placeholder="Masukkan Agama Anda">
+						<span class="focus-input100" data-symbol="&#xf112;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="No Telp harus diisi">
+						<span class="label-input100">No Telepon</span>
+						<input class="input100" type="text" name="no_telp" placeholder="Masukkan no telp Anda">
+						<span class="focus-input100" data-symbol="&#xf2be;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Alamat harus diisi">
+						<span class="label-input100">Alamat</span>
+						<input class="input100" type="text" name="agama" placeholder="Masukkan Alamat Anda">
+						<span class="focus-input100" data-symbol="&#xf175;"></span>
+					</div>
+
+					<!-- <div class="txt1 text-center p-t-54 p-b-20">
+						<span>
+							Or Sign Up Using
+						</span>
+					</div>
+
+					<div class="flex-c-m">
+						<a href="#" class="login100-social-item bg1">
+							<i class="fa fa-facebook"></i>
+						</a>
+
+						<a href="#" class="login100-social-item bg2">
+							<i class="fa fa-twitter"></i>
+						</a>
+
+						<a href="#" class="login100-social-item bg3">
+							<i class="fa fa-google"></i>
+						</a>
+					</div>
+
+					<div class="flex-col-c p-t-155">
+						<span class="txt1 p-b-17">
+							Or Sign Up Using
+						</span>
+
+						<a href="#" class="txt2">
+							Sign Up
+						</a>
+					</div> -->
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+				<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54 ml-4">
+					<span class="login100-form-title p-b-49">
+						Data Pendidikan
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Nim harus diisi">
+						<span class="label-input100">Nim</span>
+						<input class="input100" type="number" name="nim" placeholder="Masukkan Nim Anda">
+						<span class="focus-input100" data-symbol="&#xf110;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Prodi harus diisi">
+						<span class="label-input100">Program Studi</span>
+						<select class="input100" name="prodi" id="">
+							<option value="">A</option>
+							<option value="">B</option>
+						</select>
+						<span class="focus-input100" data-symbol="&#xf18d;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Semester harus diisi">
+						<span class="label-input100">Semester</span>
+						<input class="input100" type="number" name="semester" placeholder="Masukkan semester Anda">
+						<span class="focus-input100" data-symbol="&#xf3ff;"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "IPK harus diisi">
+						<span class="label-input100">IPK</span>
+						<input class="input100" type="text" name="ipk" placeholder="Masukkan IPK Anda">
+						<span class="focus-input100" data-symbol="&#xf34e;"></span>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					
+				</div>
+				<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54 ml-4">
+					<span class="login100-form-title p-b-49">
+						Data Keluarga
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Nama ayah harus diisi">
+						<span class="label-input100">Nama Ayah</span>
+						<input class="input100" type="text" name="nama_ayah" placeholder="Masukkan nama ayah Anda">
+						<span class="focus-input100" data-symbol="&#xf212;"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Pekerjaan ayah harus diisi">
+						<span class="label-input100">Pekerjaan Ayah</span>
+						<input class="input100" type="text" name="pekerjaan_ayah" placeholder="Masukkan pekerjaan ayah Anda">
+						<span class="focus-input100" data-symbol="&#xf12d;"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Nama ibu harus diisi">
+						<span class="label-input100">Nama Ibu</span>
+						<input class="input100" type="text" name="nama_ibu" placeholder="Masukkan nama ibu Anda">
+						<span class="focus-input100" data-symbol="&#xf20f;"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Pekerjaan Ibu harus diisi">
+						<span class="label-input100">Pekerjaan Ibu</span>
+						<input class="input100" type="text" name="pekerjaan_ibu" placeholder="Masukkan pekerjaan ibu Anda">
+						<span class="focus-input100" data-symbol="&#xf12d;"></span>
+					</div>
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Penghasilan harus diisi">
+						<span class="label-input100">Penghasilan</span>
+						<input class="input100" type="text" name="penghasilan" placeholder="Masukkan penghasilan keluarga anda">
+						<span class="focus-input100" data-symbol="&#x198;"></span>
+					</div>
+					
+
+				</div>
+				<div class="wrap-login100 mt-2" style="width: 25%">
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn">
+								Daftar
+							</button>
+						</div>
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
